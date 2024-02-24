@@ -1,1 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    padding-left: 20px;
+}
+
+/* Стили для изображения */
+.image-container {
+    margin-bottom: 30px;
+}
+
+.template-cookie-text {
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #000000;
+    text-align: left;
+}
+
+.template-cookie-heading {
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #05a64b;
+}
 
