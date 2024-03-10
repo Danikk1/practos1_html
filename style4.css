@@ -1,13 +1,24 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-items: center;
     height: 100vh;
 }
 
-/* Стили для кнопки */
-.button {
+.image-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.button-on-image {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
     padding: 10px 20px;
     background-color: #0e9753;
     color: #fff;
@@ -15,24 +26,8 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-bottom: 10px;
 }
 
-.button:hover {
+.button-on-image:hover {
     background-color: #0056b3;
 }
-
-/* Стили для изображения */
-.image-container {
-    margin-bottom: 20px;
-    position: relative;
-}
-
-/* Добавленные стили для кнопки на изображении */
-.button-on-image {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    z-index: 1;
-}
-
