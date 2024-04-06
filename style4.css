@@ -31,3 +31,71 @@
 .button-on-image:hover {
     background-color: #0056b3;
 }
+
+/* Для компьютеров и ноутбуков */
+@media only screen and (min-width: 1024px) {
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  
+    .image-container {
+      margin-bottom: 100px;
+    }
+  
+  
+    
+    .image-container img {
+      width: 100%;
+    }
+  
+    .button-on-image {
+      bottom: 20px;
+      left: 20px;
+    }
+  }
+
+/* Для планшетов */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+
+      padding: 10px;
+    }
+  
+    .image-container {
+      margin-bottom: 20px;
+    }
+  
+    .image-container img {
+
+      width: 60%;
+    }
+  
+    .button-on-image {
+      bottom: 10px;
+      left: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .container {
+ 
+      padding: 5px;
+    }
+  
+    .image-container {
+      margin-bottom: 10px;
+    }
+  
+    .image-container img {
+
+      width: 100%;
+    }
+  
+    .button-on-image {
+      bottom: 5px;
+      left: 5px;
+      padding: 5px 10px;
+    }
+  }
